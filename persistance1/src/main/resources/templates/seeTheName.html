@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<h1>List of user</h1>
+<table class="table">
+		<thead class="thead-dark">
+			<tr>
+				<th scope="col">id</th>
+				<th scope="col">name</th>
+				</tr>
+				</thead>
+				<tr th:each="s : ${listName}">
+				<td class="bg-primary" th:text="${s.getId()}" />
+				<td class="bg-success" th:text="${s.getName()}" />
+				</tr>
+				</table>
+
+</body>
+</html>

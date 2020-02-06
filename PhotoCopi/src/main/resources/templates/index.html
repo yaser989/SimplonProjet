@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"
+	xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+	layout:decorator="template">
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<style type="text/css">
+body{
+background-image:url("https://savageuniversal.com/wp-content/uploads/2015/05/1-whitebrick-update-1.jpg");
+background-repeat: no-repeat;
+background-size: cover; 
+padding: 200px; 
+text-align: center;
+}
+.all{
+background-color:silver;
+box-shadow: 2px 2px 2px 2px black;
+width: 50%;
+text-align: center;
+background-position: center;
+outline: 5px solid hsl(0, 0%, 60%);
+border: 5px solid hsl(0, 0%, 40%);
+ margin:20px auto 60px;
+
+}
+
+</style>
+</head>
+<body>
+<div class="all">
+<h1>Welcome !</h1>
+<h2>10 copy : 0,10<br> 20 copy : 0,09<br> more than 20 : 0,8</h2><br>
+<form action="/index" method="post">
+<table align="center">
+<tr><td>number of your paper</td><td> <input type="number" name="number"></td></tr>
+<tr><td></td><td> <input type="submit" value="valid"></td></tr>
+</table>
+</form><br>
+ 
+</div>
+</body>
+</html>
