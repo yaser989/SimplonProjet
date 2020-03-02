@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" output="target/classes" path="src/main/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" output="target/test-classes" path="src/test/java">
+		<attributes>
+			<attribute name="test" value="true"/>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/J2SE-1.5">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/y.abbas/.m2/repository/jakarta/persistence/jakarta.persistence-api/2.2.3/jakarta.persistence-api-2.2.3.jar" sourcepath="C:/Users/y.abbas/.m2/repository/jakarta/persistence/jakarta.persistence-api/2.2.3/jakarta.persistence-api-2.2.3-sources.jar">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="maven.groupId" value="jakarta.persistence"/>
+			<attribute name="maven.artifactId" value="jakarta.persistence-api"/>
+			<attribute name="maven.version" value="2.2.3"/>
+			<attribute name="maven.scope" value="compile"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/y.abbas/Downloads/mysql-connector-java-5.1.46.jar"/>
+	<classpathentry kind="lib" path="C:/Users/y.abbas/Desktop/MnelFolder/lib_dep-20200302T130041Z-001/lib_dep/antlr-2.7.7.jar"/>
+	<classpathentry kind="lib" path="C:/Users/y.abbas/Desktop/MnelFolder/lib_dep-20200302T130041Z-001/lib_dep/commandLineMenus.jar"/>
+	<classpathentry kind="lib" path="C:/Users/y.abbas/Desktop/MnelFolder/lib_dep-20200302T130041Z-001/lib_dep/dom4j-1.6.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/y.abbas/Desktop/MnelFolder/lib_dep-20200302T130041Z-001/lib_dep/hamcrest-core-1.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/y.abbas/Desktop/MnelFolder/lib_dep-20200302T130041Z-001/lib_dep/hibernate-commons-annotations-4.0.4.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/y.abbas/Desktop/MnelFolder/lib_dep-20200302T130041Z-001/lib_dep/hibernate-core-4.3.4.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/y.abbas/Desktop/MnelFolder/lib_dep-20200302T130041Z-001/lib_dep/hibernate-jpa-2.1-api-1.0.0.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/y.abbas/Desktop/MnelFolder/lib_dep-20200302T130041Z-001/lib_dep/jandex-1.1.0.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/y.abbas/Desktop/MnelFolder/lib_dep-20200302T130041Z-001/lib_dep/javassist-3.18.1-GA.jar"/>
+	<classpathentry kind="lib" path="C:/Users/y.abbas/Desktop/MnelFolder/lib_dep-20200302T130041Z-001/lib_dep/jboss-logging-3.1.3.GA.jar"/>
+	<classpathentry kind="lib" path="C:/Users/y.abbas/Desktop/MnelFolder/lib_dep-20200302T130041Z-001/lib_dep/jboss-logging-annotations-1.2.0.Beta1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/y.abbas/Desktop/MnelFolder/lib_dep-20200302T130041Z-001/lib_dep/jboss-transaction-api_1.2_spec-1.0.0.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/y.abbas/Desktop/MnelFolder/lib_dep-20200302T130041Z-001/lib_dep/junit-4.13.jar"/>
+	<classpathentry kind="lib" path="C:/Users/y.abbas/Desktop/MnelFolder/lib_dep-20200302T130041Z-001/lib_dep/mysql-connector-java-5.1.48-bin.jar"/>
+	<classpathentry kind="lib" path="C:/Users/y.abbas/Desktop/MnelFolder/lib_dep-20200302T130041Z-001/lib_dep/mysql-connector-java-8.0.18.jar"/>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>
