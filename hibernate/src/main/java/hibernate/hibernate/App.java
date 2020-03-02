@@ -47,7 +47,7 @@ public class App
 			if (list.size() != 0)
 			{
 				Personne myName = list.get(0);
-				System.out.println(myName.getNom());
+				System.out.println("the name is :"+myName.getPrenom()+" "+myName.getNom());
 			
 			
 			}
