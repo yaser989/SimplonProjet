@@ -3,13 +3,7 @@ package hibernate.hibernate;
 import javax.persistence.*;
 import javax.persistence.Table;
 
-import org.hibernate.HibernateException;
-import org.hibernate.Session;
-import org.hibernate.SessionFactory;
-import org.hibernate.Transaction;
-import org.hibernate.boot.registry.StandardServiceRegistryBuilder;
-import org.hibernate.cfg.Configuration;
-import org.hibernate.service.ServiceRegistry;
+
 
 
 
@@ -34,5 +28,34 @@ class Personne
 		this.prenom = prenom;
 	}
 
+	
+
+	public int getNum() {
+		return num;
+	}
+
+	public void setNum(int num) {
+		this.num = num;
+	}
+
+	public String getNom() {
+		return nom;
+	}
+
+	public void setNom(String nom) {
+		this.nom = nom;
+	}
+
+	public String getPrenom() {
+		return prenom;
+	}
+
+	public void setPrenom(String prenom) {
+		this.prenom = prenom;
+	}
+	@Override
+	public String toString() {
+		return "Personne [num=" + num + ", nom=" + nom + ", prenom=" + prenom + "]";
+	}
 
 }
